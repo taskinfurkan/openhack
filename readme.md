@@ -4,7 +4,7 @@ Overview
 OpenHack
 Hello and welcome to OpenHack, a challenge oriented hack event from Microsoft. From here you will be presented with a series of challenges, each one more difficult than the one before.
 
-You should already be assigned to and seated with a team, with whom you will attempt to solve as many challenges as you can within today’s hack time
+You should already be assigned to and seated with a team, with whom you will attempt to solve as many challenges as you can within todayâ€™s hack time
 
 You have been assigned a coach who will be your first point of contact, and is here to support you and answer questions during the hack. They will not however solve the challenges for you.
 
@@ -14,7 +14,7 @@ You are the R&D team for a startup that wants to investigate the technical viabi
 The challenges
 Each challenge will lead you through a stage of the technical investigation as briefly laid out by your fictional CTO, these investigations become more technically challenging as you progress.
 
-We do not provide guides, or instructions to solve the challenges, just a few hints and documentation references that you may find useful. There are multiple ways to solve each challenge, and very likely some we haven’t thought of, so whilst we have automated validation of the most common solutions, we’re interested to see your own unique solutions to the problem, and you should absolutely work with your coaches and the OpenHack Team to validate your solution as correct.
+We do not provide guides, or instructions to solve the challenges, just a few hints and documentation references that you may find useful. There are multiple ways to solve each challenge, and very likely some we havenâ€™t thought of, so whilst we have automated validation of the most common solutions, weâ€™re interested to see your own unique solutions to the problem, and you should absolutely work with your coaches and the OpenHack Team to validate your solution as correct.
 
 ?
 
@@ -25,12 +25,12 @@ Reference
 The following information aims to give you a good understanding of Minecraft you may find helpful while working through the challenges.
 
 1. Minecraft Servers
-This OpenHack focuses on deploying older ‘Java’ Minecraft servers, we’ve taken the liberty of providing a custom container for these.
+This OpenHack focuses on deploying older â€˜Javaâ€™ Minecraft servers, weâ€™ve taken the liberty of providing a custom container for these.
 
 2. Minecraft Client & License
-In order to test connections to your Minecraft servers, you’ll need the Minecraft Java Edition client for PC/Mac, and a Minecraft Account. You can find the download at Minecraft.net/Download
+In order to test connections to your Minecraft servers, youâ€™ll need the Minecraft Java Edition client for PC/Mac, and a Minecraft Account. You can find the download at Minecraft.net/Download
 
-You’ll need to Create an Account before you login. You should find a ‘secret code’ on your Event Details sheet provided to you, this is a Minecraft License code and give you a full, permanent minecraft license for you to keep after the event.
+Youâ€™ll need to Create an Account before you login. You should find a â€˜secret codeâ€™ on your Event Details sheet provided to you, this is a Minecraft License code and give you a full, permanent minecraft license for you to keep after the event.
 
 3. Protocol: TCP
 The Minecraft server accepts connections via TCP, not HTTP/REST
@@ -41,7 +41,7 @@ There are two ports of interest:
 Default Minecraft port: 25565
 Default RCON port: 25575
 5. State
-Minecraft server state is handled by a write-only operation to disk in the default ‘data’ directory. The server does not do any verification on the state. This means that if two Minecraft servers share that same default directory, they will overwrite each-others data.
+Minecraft server state is handled by a write-only operation to disk in the default â€˜dataâ€™ directory. The server does not do any verification on the state. This means that if two Minecraft servers share that same default directory, they will overwrite each-others data.
 
 6. Helpful 3rd Party Tools
 If you need to get information from a Minecraft server, these tools are usually the first stop for most common requirements:
@@ -57,3 +57,15 @@ ban <playername> [reason]	Blacklists the name playername from the server so that
 banlist	Displays the banlist. To display banned IP addresses, use the command banlist ips
 list	Shows the names of all currently-connected players
 stop	Gracefully shuts down the server
+  
+-----------------------------------------------------------------------------------------------------------
+Logins:
+
+Team-19:
+https://openhacks.azurewebsites.net/
+76684-da901-19@skillmeup.com
+Password123
+
+Azure:
+hacker3@OTAPRD287ops.onmicrosoft.com
+_x22Pv9+/6D6
